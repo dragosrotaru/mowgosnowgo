@@ -1,0 +1,27 @@
+{
+  "expo": {
+    "name": "MowGoSnowGo",
+    "description": "MowGOSnowGO is the all-new smartphone app that connects you with reliable and experienced property maintenance professionals in your neighborhood.",
+    "version": "2.1.0",
+    "icon": "./assets/images/icon.png",
+    "slug": "mowgosnowgo",
+    "sdkVersion": "25.0.0",
+    "androidStatusBar": {
+      "barStyle": "light-content",
+      "backgroundColor": "#7367F0"
+    },
+    "facebookScheme": "fb2038975489690673",
+    "facebookAppId": "2038975489690673",
+    "facebookDisplayName": "MowGoSnowGo",
+    "orientation": "portrait",
+    "ios": {
+      "buildNumber": "2.1.0",
+      "supportsTablet": true,
+      "bundleIdentifier": "com.syncidlabs.mowgosnowgo"
+    },
+    "android": {
+      "versionCode": 3,
+      "package": "com.mowgosnowgo.app"
+    }
+  }
+}

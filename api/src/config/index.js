@@ -1,0 +1,28 @@
+module.exports = {
+  port: process.env.PORT || 8080,
+  secret: process.env.SECRET,
+  sendGridApiKey: process.env.SENDGRID_API_KEY,
+  stripePrivateKey: process.env.STRIPE_PRIVATE_KEY,
+  stripePublicKey: process.env.STRIPE_PUBLIC_KEY,
+  facebookAppID: '2038975489690673',
+  facebookAppSecret: process.env.FACEBOOK_APP_SECRET,
+  devEmail: process.env.DEV_EMAIL || 'dev@example.com',
+  emailAddress: process.env.EMAIL_ADDRESS || 'dev@example.com',
+  noReply: process.env.NO_REPLY_EMAIL || 'no-reply@mowgosnowgo.com',
+  saltRounds: 10,
+  graphql: {
+    endpoint: '/',
+    ide: process.env.NODE_ENV !== 'production',
+    pretty: true,
+  },
+  database: {
+    username: process.env.SQL_USERNAME || 'service-app-mowgosnowgo-com',
+    password: process.env.SQL_PASSWORD || null,
+    database: process.env.SQL_DATABASE || 'service-app-mowgosnowgo-com-development',
+    host: process.env.SQL_HOST || '127.0.0.1',
+    port: process.env.SQL_PORT || 5432,
+    dialect: process.env.SQL_DIALECT || 'postgres',
+    seederStorage: 'sequelize',
+    operatorsAliases: false,
+  },
+};
